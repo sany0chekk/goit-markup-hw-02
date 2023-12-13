@@ -1,10 +1,11 @@
 body{
+    background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    color: #2E2F42;
+    color: #434455;
 }
 
 button{
@@ -22,16 +23,17 @@ ul{
 }
 
 .main-logo{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
+    line-height: 1.17;
     letter-spacing: 0.54px;
-    color: currentColor;
+    color: #4d5ae5;
     text-transform: uppercase;
 }
 
 .main-logo span{
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 /*          HEADER          */
@@ -44,6 +46,10 @@ ul{
 .header-nav__link:hover,
 .header-nav__link:focus{
     color: #404BBF;
+}
+
+.header-contacts{
+    font-style: normal;
 }
 
 .header-contacts__link{
@@ -63,14 +69,17 @@ ul{
 .hero-title{
     font-weight: 700;
     font-size: 56px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .hero-btn{
     background-color: #4D5AE5;
+    font-weight: 500;
     color: #FFFFFF;
-    letter-spacing: 0.64;
+    letter-spacing: 0.04em;
 }
 
 .hero-btn:hover,
@@ -79,13 +88,11 @@ ul{
 }
 
 /*          BENEFITS            */
-.benefits-title{
-    display: none;
-}
-
 .benefits-item__title{
     font-weight: 500;
-    letter-spacing: 0.4px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .benefits-item__descr{
@@ -100,17 +107,44 @@ ul{
 .team-title{
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 0.72px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
+}
+
+.team-item{
+    background-color: #FFFFFF;
 }
 
 .team-item__title{
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 
 .team-item__descr{
+    color: #434455;
+}
+
+/*          PORTFOLIO           */
+.portfolio-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.portfolio-item__title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.portfolio-item__descr{
     color: #434455;
 }
 
