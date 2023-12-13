@@ -52,6 +52,10 @@ ul{
     font-style: normal;
 }
 
+.header-contacts__link{
+    color: #434455;
+}
+
 .header-contacts__link:hover,
 .header-contacts__link:focus{
     color: #404BBF;
